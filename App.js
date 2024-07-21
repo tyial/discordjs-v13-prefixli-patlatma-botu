@@ -7,7 +7,7 @@ require("./Events/MessageCreate.js")(client)
 require("./Events/CommandHandler.js")(client)
 
 
-// ErrorHandler --------------------------------------------------------------
+// CrashHandler --------------------------------------------------------------
 process.on('unhandledRejection', (reason, p) => {
     console.error(reason);
 });
@@ -17,10 +17,7 @@ process.on("uncaughtException", (err, origin) => {
 process.on('uncaughtExceptionMonitor', (err, origin) => {
     console.error(' [AntiCrash] :: Uncaught Exception/Catch (MONITOR)');
 });
-process.on('multipleResolves', (type, promise, reason) => {
-    console.error(' [AntiCrash] :: Multiple Resolves');
-});
-// ErrorHandler --------------------------------------------------------------
+// CrashHandler --------------------------------------------------------------
 
 
 client.login(Config.Token)
