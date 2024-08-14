@@ -6,22 +6,37 @@ Eğer botu glitch üzerinden çalıştırıyorsanız `package.json` dosyasını 
 
 ```json
 {
-  "name": "patlatma-botu",
-  "author": { "name": "Tyial", "url": "https://tyial.xyz/" },
-  "version": "1.0.0",
-  "description": "Discord Sunucu Patlatma Botu Altyapısıdır. Tyial tarafından yapılmıştır. Kolay optimize edilebilir.",
-  "license": "MIT",
-  "main": "App.js",
-  "scripts": {
-    "start": "node App.js"
-  },
-  "dependencies": {
-    "advanced-logs": "^2.1.3",
-    "discord.js": "^13.6.0"
-  },
-  "engines": {
-    "node": "16.x"
-  }
+    "name": "patlatma-botu",
+    "version": "1.0.0",
+    "description": "Tyial tarafından geliştirilen, optimize edilebilir bir Discord sunucu patlatma botu altyapısı.",
+    "main": "App.js",
+    "license": "MIT",
+    "author": {
+        "name": "Tyial",
+        "url": "https://tyial.xyz/"
+    },
+    "scripts": {
+        "start": "node App.js"
+    },
+    "dependencies": {
+        "advanced-logs": "^2.1.3",
+        "discord.js": "^13.6.0"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "patlatma",
+        "altyapı",
+        "discord.js",
+        "tyial"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tyial/discordjs-v13-prefixli-patlatma-botu.git"
+    },
+    "engines": {
+      "node": "16.x"
+    }
 }
 ```
 
