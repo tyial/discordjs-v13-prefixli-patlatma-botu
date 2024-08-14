@@ -1,7 +1,8 @@
 {
   "name": "patlatma-botu",
   "author": { "name": "Tyial", "url": "https://tyial.xyz/" },
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "license": "MIT",
   "description": "Discord Sunucu Patlatma Botu Altyapısıdır. Tyial tarafından yapılmıştır. Kolay optimize edilebilir.",
   "main": "App.js",
   "scripts": {
@@ -10,6 +11,5 @@
   "dependencies": {
     "advanced-logs": "^2.1.3",
     "discord.js": "^13.6.0"
-  },
-  "license": "MIT"
+  }
 }
