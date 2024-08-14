@@ -6,17 +6,18 @@ Eğer botu glitch üzerinden çalıştırıyorsanız `package.json` dosyasını 
 
 ```json
 {
+  "name": "patlatma-botu",
+  "author": { "name": "Tyial", "url": "https://tyial.xyz/" },
+  "version": "1.0.0",
+  "description": "Discord Sunucu Patlatma Botu Altyapısıdır. Tyial tarafından yapılmıştır. Kolay optimize edilebilir.",
+  "license": "MIT"
   "main": "App.js",
   "scripts": {
     "start": "node App.js"
   },
   "dependencies": {
-    "@discordjs/builders": "^1.6.1",
-    "@discordjs/rest": "^0.3.0",
     "advanced-logs": "^2.1.3",
-    "discord.js": "^13.6.0",
-    "fs": "^0.0.1-security",
-    "ms": "^2.1.3"
+    "discord.js": "^13.6.0"
   },
   "engines": {
     "node": "16.x"
