@@ -10,7 +10,7 @@ Eğer botu glitch üzerinden çalıştırıyorsanız `package.json` dosyasını 
   "author": { "name": "Tyial", "url": "https://tyial.xyz/" },
   "version": "1.0.0",
   "description": "Discord Sunucu Patlatma Botu Altyapısıdır. Tyial tarafından yapılmıştır. Kolay optimize edilebilir.",
-  "license": "MIT"
+  "license": "MIT",
   "main": "App.js",
   "scripts": {
     "start": "node App.js"
