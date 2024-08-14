@@ -28,6 +28,7 @@ Eğer botu glitch üzerinden çalıştırıyorsanız `package.json` dosyasını 
         "patlatma",
         "altyapı",
         "discord.js",
+        "Tyial",
         "tyial"
     ],
     "repository": {
